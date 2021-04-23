@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dropdownValues">
+        <item>Teapot</item>
+        <item>Rabit</item>
+        <item>Monkey</item>
+        <item>Dragon</item>
+        <item>Buddha</item>
+        <item>Angel</item>
+    </string-array>
+</resources>

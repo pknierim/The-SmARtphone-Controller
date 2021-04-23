@@ -1,0 +1,44 @@
+syntax = "proto3";
+package MT;
+option csharp_namespace = "Google.Protobuf.HoloLensAndroidMessaging";
+
+message ObjectManipulation {
+  float translationX = 1;
+  float translationY = 2;
+  float translationZ = 3;
+  float scale = 4;
+  float rotationY = 5;
+  fixed32 isFirstTouch = 6;
+  fixed32 isSelecting = 7;
+  fixed32 isFinished = 8;
+}
+
+message UIManipulation {
+    fixed32 isSelecting = 1;
+    float scrollX = 2;
+    float scrollY = 3;
+    message AndroidUIInput {
+      fixed32 objectType = 1;
+      fixed32 quality = 2;
+      fixed32 scale = 3;
+      fixed32 color = 4;
+    }
+    fixed32 hasAndroidUIInput = 4;
+    AndroidUIInput androidUIInput = 5;
+    fixed32 isFinished = 6;
+}
+
+message HoloLensMessage {
+  enum Message {
+    USELESS_CONSTANT_NEVER_USE = 0;
+    USE_CASE_OBJECT_TRANSLATION = 1;
+    USE_CASE_CLEAR = 2;
+    USE_CASE_UI_MANIPULATION = 3;
+    USE_CASE_UI_MANIPULATION_ANDROID_UI = 4;
+    OBJECT_MANIPULATION_FINISHED = 5;
+    OBJECT_FOR_MANIPULATION_SELECTED = 6;
+    UI_MANIPULATION_CORRECT = 7; 
+    UI_MANIPULATION_FALSE = 8; 
+  }
+  Message message = 1;
+}

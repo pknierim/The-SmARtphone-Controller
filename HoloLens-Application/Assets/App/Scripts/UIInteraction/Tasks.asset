@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89e70327d9c2774994b6d8190e54e0c, type: 3}
+  m_Name: Tasks
+  m_EditorClassIdentifier: 
+  tasks:
+  - Type: 2
+    Quality: 1
+    Size: 40
+    Color: {r: 0, g: 1, b: 0.9137254, a: 1}
+  - Type: 4
+    Quality: 2
+    Size: 25
+    Color: {r: 1, g: 0.5476825, b: 0, a: 1}
+  - Type: 1
+    Quality: 0
+    Size: 76
+    Color: {r: 0.8057866, g: 0, b: 1, a: 1}
+  - Type: 0
+    Quality: 2
+    Size: 5
+    Color: {r: 0.28527856, g: 1, b: 0, a: 1}
+  - Type: 5
+    Quality: 1
+    Size: 100
+    Color: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
+  - Type: 3
+    Quality: 2
+    Size: 66
+    Color: {r: 0, g: 0.46924734, b: 1, a: 1}
+  - Type: 0
+    Quality: 1
+    Size: 90
+    Color: {r: 0.95169604, g: 1, b: 0, a: 1}
+  - Type: 3
+    Quality: 0
+    Size: 33
+    Color: {r: 1, g: 0, b: 0, a: 1}
+  - Type: 1
+    Quality: 1
+    Size: 71
+    Color: {r: 0.8057866, g: 0, b: 1, a: 1}
+  - Type: 2
+    Quality: 2
+    Size: 84
+    Color: {r: 1, g: 0.5476825, b: 0, a: 1}
+  - Type: 4
+    Quality: 0
+    Size: 45
+    Color: {r: 0, g: 0.46924734, b: 1, a: 1}
+  - Type: 5
+    Quality: 2
+    Size: 10
+    Color: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
+  colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.5476825, b: 0, a: 1}
+  - {r: 0.95169604, g: 1, b: 0, a: 1}
+  - {r: 0.28527856, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.9137254, a: 1}
+  - {r: 0, g: 0.46924734, b: 1, a: 1}
+  - {r: 0.8057866, g: 0, b: 1, a: 1}
+  - {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
+  objectTypeNames:
+  - Teekanne
+  - Hase
+  - Affe
+  - Drache
+  - Buddha
+  - Engel
+  objectQualityNames:
+  - Hoch
+  - Mittel
+  - Niedrig
+  colorNames:
+  - Rot
+  - Orange
+  - Gelb
+  - "Gr\xFCn"
+  - "T\xFCrkis"
+  - Blau
+  - Lila
+  - Grau
+  meshes:
+  - modelMeshes:
+    - {fileID: 4300000, guid: 67873bfd634dd594e8de9a27f4eb172a, type: 3}
+    - {fileID: 4300000, guid: de36aaf8c96cc8f4ea2ef43ccfcda2e7, type: 3}
+    - {fileID: 4300000, guid: 6a7f64024b844664c9b0dd303a273bc6, type: 3}
+  - modelMeshes:
+    - {fileID: 4300000, guid: 2859f97b62e5dc94a83c55b19ce0d05b, type: 3}
+    - {fileID: 4300000, guid: 089cbbd42a2a9f34bbd38325454f72cf, type: 3}
+    - {fileID: 4300000, guid: 168ddf32ebed3b044b7fdb7cc8590ff6, type: 3}
+  - modelMeshes:
+    - {fileID: 4300000, guid: b2f7515219da94a42a5dce0ee0b0b158, type: 3}
+    - {fileID: 4300008, guid: b2f7515219da94a42a5dce0ee0b0b158, type: 3}
+    - {fileID: 4300010, guid: b2f7515219da94a42a5dce0ee0b0b158, type: 3}
+  - modelMeshes:
+    - {fileID: 4300000, guid: 92da6e9ca342c644cb56dd705b2aa683, type: 3}
+    - {fileID: 4300000, guid: 93ca9e28d743c6042bd8ae115afba065, type: 3}
+    - {fileID: 4300000, guid: 9d8d715b192c682429d7cc98f5f33504, type: 3}
+  - modelMeshes:
+    - {fileID: 4300000, guid: d0cb3489f7bed8546a5f0ae535b66382, type: 3}
+    - {fileID: 4300000, guid: b6a0aa7ffa0ce2440a6ef59e3b7b6ca1, type: 3}
+    - {fileID: 4300000, guid: c3bba461e1072534fbe6257b70b487c8, type: 3}
+  - modelMeshes:
+    - {fileID: 4300000, guid: 00a81c0e70ebc504ebf0ef47ac0a58a3, type: 3}
+    - {fileID: 4300000, guid: eacb5704e4cba1c42bb69ade3dbb96de, type: 3}
+    - {fileID: 4300000, guid: bf448cd638046d646bf2e4e87bbaa298, type: 3}

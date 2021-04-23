@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MT-Android-Application</string>
+    <string name="ble_not_supported">Your device must support Bluetooth LE.</string>
+    <string name="bt_not_enabled_leaving">You didn\'t enable Bluetooth. Quitting!</string>
+    <string name="bt_ads_not_supported">Bluetooth advertising not supported.</string>
+    <string name="bt_ads_not_supported_leaving">Bluetooth advertising not supported. Quitting!</string>
+    <string name="bluetooth_tag">BLUETOOTH_D</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
